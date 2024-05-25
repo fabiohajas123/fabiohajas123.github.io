@@ -36,26 +36,7 @@
       <img src="bruno (1).png" alt="Brumik" height="400">
     </p>
 
-            <div class="container">
-          <h2>Please enter the password</h2>
-          <form id="passwordForm" onsubmit="checkPassword(event)">
-          <input type="password" id="password">
-          <button type="submit">Submit</button>
-        </form>
-      </div>
     <button onclick="location.href='INFO.html'">O mne</button>
     </center>
-
-    <script>
-              function checkPassword(event) {
-          event.preventDefault(); // Prevent form submission
-          var password = document.getElementById("password").value;
-          if (password === "password") { // Replace "your_password_here" with your desired password
-            window.location.href = "https://www.example.com"; // Replace "https://www.example.com" with the website you want to redirect to
-          } else {
-            alert("Incorrect password. Please try again.");
-          }
-        }
-      </script>
   </body>
 </html>
